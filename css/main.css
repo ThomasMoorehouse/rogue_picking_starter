@@ -69,7 +69,7 @@ header h1 span {
 header nav {
 	border-top: 3px solid #77a466;
 	padding: 1rem 0;
-	width: 90%;
+	width: 100%;
 }
 
 header nav ul {
@@ -93,7 +93,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -130,7 +130,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 90%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
@@ -231,7 +231,7 @@ footer span {
   
 @media screen and (min-width: 1200px) {
 	header {
-		width: 90%;
+		width: 100%;
 		padding-top: 2rem;
 		justify-content: space-between;
 		flex-flow: nowrap;
@@ -257,4 +257,9 @@ footer span {
 		font-size: 0.6rem;
 	}
 	
+	.top-section,
+	.bottom-section {
+		width: 100%;
+	}
+
 }
