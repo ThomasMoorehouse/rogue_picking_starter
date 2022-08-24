@@ -249,8 +249,12 @@ footer span {
 	header nav {
 		border-top: none;
 		padding: 0.5rem 0;
-		width: 50%;
+		width: 60%;
 		text-align: right;
+	}
+
+	header nav ul li {
+		font-size: 0.6rem;
 	}
 	
 }
