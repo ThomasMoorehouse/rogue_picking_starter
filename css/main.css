@@ -67,9 +67,7 @@ header h1 span {
 }
 
 header nav {
-	/*float: right;*/
 	border-top: 3px solid #77a466;
-	/*border-bottom: 3px solid #77a466;*/
 	padding: 1rem 0;
 	width: 90%;
 }
@@ -115,7 +113,6 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	/*float: left;*/
 }
 
 .main-title h2 {
@@ -202,6 +199,11 @@ footer span {
 		border-top: none;
 	}
 
+	.section-two h3,
+	.section-three h3 {
+		padding: 0.625rem 0;
+
+	}
 	.section-one {
 		padding-right: 1em;
 	}
@@ -228,8 +230,27 @@ footer span {
 }
   
 @media screen and (min-width: 1200px) {
+	header {
+		width: 90%;
+		padding-top: 2rem;
+		justify-content: space-between;
+		flex-flow: nowrap;
+	}
 	h1 {
-	  font-size: 4rem;
+		width: 50%;
+	  font-size: 2rem;
+	  padding: 0.5rem 0;
+	  margin: 0;
+	}
+
+	header h1 {
+		padding-top: 0;
+	}
+	header nav {
+		border-top: none;
+		padding: 0.5rem 0;
+		width: 50%;
+		text-align: right;
 	}
 	
 }
